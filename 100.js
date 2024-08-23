@@ -2,8 +2,7 @@
 试卷100解锁VIP
 2024.1.12
 [rewrite_local]
-^https:\/\/paper\.zjapp\.xyz\/api\/v1\/status\/list url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/Shijuan100.js
-[mitm]
+^https:\/\/paper\.zjapp\.xyz\/api\/v1\/status\/list url script-response-body https://raw.githubusercontent.com/tsingter/shijuan/main/100.js
 hostname = paper.zjapp.xyz
 */
 
